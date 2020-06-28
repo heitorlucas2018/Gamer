@@ -1,0 +1,18 @@
+
+#titleModal {
+    width: 76%; 
+    margin-left: 12%
+}
+
+#btnPlayer1, #btnPlayer2 {
+    width: 80%; 
+    margin-left: 10%; 
+}
+
+#btnModal1, #btnModal2{
+    flex: 1;
+}
+
+#HeadModal {
+    text-align: center;
+}
