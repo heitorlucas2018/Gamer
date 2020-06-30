@@ -1,0 +1,58 @@
+
+.rankingspaceCorpo {
+    background-color: rgb(46, 141, 141); 
+    margin-left: 5px; width: 20%; 
+    height: 7vh;
+    border-radius: 2%;
+}
+
+.rankingspaceHead {
+    background-color: rgb(46, 141, 141); 
+    width: 100%;
+}
+
+.rankingspace {
+    margin-left: 0px;
+    background-color: rgb(46, 141, 141);
+    height: 60vh;
+    border-radius: 2%;
+
+}
+
+.ranking {
+    width: 98%;
+    height: 55vh;
+    overflow: auto;
+}
+
+.ranking-date {
+    margin-left: 1%;
+    width: 98%;
+    background-color: rgb(255, 255, 255, .2);
+    border-radius: 2%;
+}
+
+.ranking::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+}
+
+.ranking::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255, .4);
+    border-radius: 15px;
+}
+
+table {
+    width: 98%;
+    margin-top: 10%;
+    margin-left: 1px;
+}
+
+tr {
+    border-bottom: 1px solid rgb(46, 141, 141);
+}
+
+th {
+    width: 33%;
+}
+
