@@ -1,7 +1,13 @@
 # Gamer
 
-## Important
+## Importante
 
-Executar o projeto em uma estrutura de servidor.
+Para executar o projeto é nescessarios ter o node.js instalado na maquina.
 
-Software Recomendados: XAMPP, WAMPSERVER
+### Comandos
+
+    npm server - Inicia o servidor node js
+    
+    npm build - transpila o codigo js, gerando um build, que é aceito pela maioria dos navegadores.,
+
+    npm watch - monitora as alteracoes do codigo, este comando é recomendado apenas no processo de desenvolvimento. 
