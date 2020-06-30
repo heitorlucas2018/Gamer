@@ -3,7 +3,7 @@ import { setTotal, TotalValue } from '../Total/_Total.js';
 import { setRanking, VitoriaRanking, DerrotaRanking } from '../Ranking/_Ranking.js';
 
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     //Cria os Rankings para os jogadores
     function adicionarRanking() {
@@ -17,8 +17,7 @@ $(document).ready(function () {
 
             $("#btnPlayer1").prop('disabled', false);
             $("#btnPlayer2").prop('disabled', false);
-        }
-        else {
+        } else {
             $("#btnPlayer1").prop('disabled', true);
             $("#btnPlayer2").prop('disabled', true);
         }
@@ -68,7 +67,7 @@ $(document).ready(function () {
                 DerrotaRanking($("#nome").val())
                 VitoriaRanking('Player 2')
             }
-            setTimeout(function () {
+            setTimeout(function() {
                 ReiniciaPartida();
             }, 3000);
 
@@ -101,16 +100,16 @@ $(document).ready(function () {
     $('#Modal').modal('show');
 
 
-    $("#nome").keypress(function () {
+    $("#nome").keypress(function() {
         validateNome()
     });
 
 
-    $("#nome").focusout(function () {
+    $("#nome").focusout(function() {
         validateNome()
     });
 
-    $('#btnPlayer1').click(function () {
+    $('#btnPlayer1').click(function() {
         $('.btnHead2').css('display', 'none');
         $('.btnHead2').attr('value', '0');
         $('.btnNumber2').css('display', 'none');
@@ -121,7 +120,7 @@ $(document).ready(function () {
 
     });
 
-    $('#btnPlayer2').click(function () {
+    $('#btnPlayer2').click(function() {
         $('#Modal').modal('hide');
         $('.btnHead2').removeAttr('value');
         $('.btnHead2').css('display', 'block');
@@ -133,7 +132,7 @@ $(document).ready(function () {
     });
 
 
-    $("#botao1").click(function () {
+    $("#botao1").click(function() {
 
         let tot = TotalValue();
         tot = tot + 1;
@@ -146,7 +145,7 @@ $(document).ready(function () {
     });
 
 
-    $("#botao2").click(function () {
+    $("#botao2").click(function() {
 
         let tot = TotalValue();
         tot = tot + 2;
@@ -159,7 +158,7 @@ $(document).ready(function () {
 
     });
 
-    $("#botao3").click(function () {
+    $("#botao3").click(function() {
 
         let tot = TotalValue();
         tot = tot + 3;
@@ -172,7 +171,7 @@ $(document).ready(function () {
 
     });
 
-    $("#botao4").click(function () {
+    $("#botao4").click(function() {
 
         let tot = TotalValue();
         tot = tot + 1;
@@ -184,7 +183,7 @@ $(document).ready(function () {
 
     });
 
-    $("#botao5").click(function () {
+    $("#botao5").click(function() {
 
         let tot = TotalValue();
         tot = tot + 2;
@@ -196,7 +195,7 @@ $(document).ready(function () {
 
     });
 
-    $("#botao6").click(function () {
+    $("#botao6").click(function() {
 
         let tot = TotalValue();
         tot = tot + 3;
@@ -222,7 +221,7 @@ $(document).ready(function () {
             if (21 - TotalValue() < 4) {
                 numero = 21 - TotalValue();
                 tot = tot + numero;
-                setTimeout(function () {
+                setTimeout(function() {
                     Jogadas(numero);
                     setTotal(tot);
                     DesabilitaPlayer(2);
@@ -233,7 +232,7 @@ $(document).ready(function () {
             } else {
 
                 tot = tot + numero;
-                setTimeout(function () {
+                setTimeout(function() {
                     Jogadas(numero);
                     setTotal(tot);
                     DesabilitaPlayer(2);

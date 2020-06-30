@@ -1,6 +1,8 @@
 import * as Gera from '../Gerador/_Gerador.js';
 import { TotalValue } from '../Total/_Total.js';
 
+import './styled.css'
+
 export default function Jogadas(valor) {
 
     //GeradorClass(classe, elemento, atr, atrName, value)

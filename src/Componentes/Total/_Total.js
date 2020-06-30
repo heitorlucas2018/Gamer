@@ -1,5 +1,7 @@
 import * as Gera from '../Gerador/_Gerador.js';
 
+import './styled.css'
+
 export default function Total() {
 
     //GeradorClass(classe, elemento, atr, atrName, value)
@@ -28,6 +30,3 @@ export function TotalValue() {
 
 
 }
-
-
-

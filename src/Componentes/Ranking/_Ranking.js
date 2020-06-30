@@ -1,10 +1,8 @@
 import * as Gera from '../Gerador/_Gerador.js';
 
-
+import './styled.css'
 
 var ranking = [];
-
-
 
 export default function Ranking() {
 

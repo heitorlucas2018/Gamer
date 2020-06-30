@@ -1,4 +1,5 @@
 {
+    "port": 7000,
     "rootFolder": "./public",
     "defaultIndex": "/index.html",
     "types": {

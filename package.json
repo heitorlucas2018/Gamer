@@ -3,9 +3,8 @@
     "version": "1.0.0",
     "description": "Executar o projeto em uma estrutura de servidor.",
     "private": true,
-    "main": "index.js",
     "scripts": {
-        "start": "nodemon ./index.js",
+        "server": "nodemon server.js",
         "watch": "webpack --watch",
         "build": "webpack"
     },

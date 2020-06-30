@@ -1,5 +1,7 @@
 import * as Gera from '../Gerador/_Gerador.js';
 
+import './styled.css'
+
 export default function Nav() {
 
     //Gera a barra de navegação

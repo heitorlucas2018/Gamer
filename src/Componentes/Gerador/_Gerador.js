@@ -1,4 +1,3 @@
-
 // Função que gera codigo a partir de um ID
 export function GeradorId(id, elemento, atr, atrName, value) {
 
